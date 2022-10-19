@@ -1,3 +1,7 @@
-täisarv = int(input('Vali täisarv ühe ja üheksa vahel:)
+n = input('Täisarv vahemikus 1-9:')
+nn = n + n
+nnn = n + n + n
 
-täisarv = n+nn+nnn
+res = int(n) + int(nn) + int(nnn)
+
+print(n, "+", nn, "+", nnn, "=", res)
