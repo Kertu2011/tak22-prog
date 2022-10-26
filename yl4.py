@@ -1,2 +1,7 @@
-arv1 = input("Sisesta esimene arv")
-arv2 = input("Sisesta teine arv")
+a = int(input("a: "))
+b = int(input("b: "))
+
+if a < b:
+    print("a on miiimum")
+else:
+    print("b on miinimum")
