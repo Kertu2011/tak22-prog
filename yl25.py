@@ -17,5 +17,13 @@ for k, v in me.items():
 
 if "personal_code" in me: 
     print("Isikukood on olemas")
-    else:
-        print("Isikukoodi pole listis")
+else:
+    print("Isikukoodi pole listis")
+
+print(len(me))
+
+me["height"] = "174 cm"
+
+me.pop("birth_year")
+# del me["birth_year"]
+print(me)
