@@ -13,3 +13,9 @@ me["dessert"] = "ice cream"
 
 for k, v in me.items():
     print(k, v)
+# me ["personal_code"] = "1234567890"
+
+if "personal_code" in me: 
+    print("Isikukood on olemas")
+    else:
+        print("Isikukoodi pole listis")
