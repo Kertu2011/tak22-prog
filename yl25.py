@@ -20,10 +20,10 @@ if "personal_code" in me:
 else:
     print("Isikukoodi pole listis")
 
-print(len(me))
+    print(len(me))
 
 me["height"] = "174 cm"
 
 me.pop("birth_year")
 # del me["birth_year"]
-print(me)
+    print(me)
