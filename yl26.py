@@ -73,8 +73,12 @@ sales = {
 
 for employee_name, employee_sales in sales.items():
     print(employee_name)
-    print(employee_sales["revenue"])
-    print(employee_sales["expenses"])
 
+    comission = 0
     for drink_name, drink_value in employee_sales["revenue"].items():
-        print(drink_name, drink_value, employee_sales["expenses"][drink_name])
+        profit = drink_value - employee_sales["expenses"][drink_name]
+        if profit > 0 :
+            print("Kasum on positiivne", profit * 0.062)
+            comission += profit * 0.062
+    
+    print(comission)
